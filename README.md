@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an app that queries the [Ravelry API](https://www.ravelry.com/groups/ravelry-api) to fetch a list of yarns based on a user query.
 
-Things you may want to cover:
+The app is a single page application using Ruby on Rails and Vue.
 
-* Ruby version
+## Versions
 
-* System dependencies
+```
+Rails version             7.0.2.3
+Ruby version              ruby 2.7.5p203 (2021-11-24 revision f69aeb8314) [x86_64-darwin20]
+RubyGems version          3.3.11
+Rack version              2.2.3
+```
 
-* Configuration
+## Instructions
 
-* Database creation
+First, clone repository.
 
-* Database initialization
+Then:
 
-* How to run the test suite
+```
+cd yarnDetective7
+bin/rails s
 
-* Services (job queues, cache servers, search engines, etc.)
+```
 
-* Deployment instructions
-
-* ...
+This should run the server.
